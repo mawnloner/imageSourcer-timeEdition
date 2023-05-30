@@ -1,5 +1,5 @@
 # set your Unsplash API access key
-$accessKey = "CfZnnGq7i0VKZp_T8Bv2Q0Xo2fZrd_ZIh5bvNUFqTmM"
+$accessKey = "[YOUR_API_TOKEN]"
 
 # parameter for filtering the images
 $orientation = "landscape" # landscape, portrait, squarish (optional, but i reccomend landscape)
@@ -13,7 +13,7 @@ $headers = @{
 # get the hour
 $hour = (Get-Date).Hour
 
-$outputPath = "C:\Users\remco\wallpaper\image.png" # change this to your desired output path
+$outputPath = "[YOUR_PATH]" # change this to your desired output path
 
 # case statement to determine the image to use
 switch ($hour) {
